@@ -1,0 +1,11 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+.nav-links {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: gray;
+}
