@@ -37,7 +37,14 @@
 }
 #search-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 18em;
     flex-direction: row;
-    
+    margin: 2em auto;
+}
+.buttons {
+    width: 10em;
+    height: 3em;
+    border-style: none;
+    border-radius: 4px;
 }
