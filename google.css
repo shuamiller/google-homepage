@@ -11,10 +11,10 @@
     color: rgb(77, 77, 77);
     margin: 1em .75em 0 .75em;
 }
-#left-div {
+.left-div {
     display: flex;
 }
-#right-div {
+.right-div {
     display: flex;
 }
 #logo {
@@ -47,4 +47,33 @@
     height: 3em;
     border-style: none;
     border-radius: 4px;
+    color: gray;
+}
+#foot-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 3em;
+    border-top-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+.left-foot-links {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    margin: 1.2em 1em 1em 2em;
+}
+.right-foot-links {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    margin: 1.2em 2em 1em 1em;
 }
