@@ -22,9 +22,22 @@
     margin-right: auto;
     margin-left: auto;
     width: 300px;
-    padding: 10em 0 5em 0;
+    padding: 10em 0 2em 0;
 }
-#search-options {
+#google-search {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45em;
+    height: 4em;
+    border-radius: 5em;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-width: 1px;
+}
+#search-buttons {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    
 }
